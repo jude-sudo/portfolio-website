@@ -8,7 +8,7 @@ A responsive personal portfolio website by **Jude MIchael Tamares**, built as pa
 
 ## Screenshot
 
-![Portfolio Homepage](images/portfolio-homepage.png)
+![Portfolio Homepage](images/screenshot.png)
 
 ## Technologies Used
 

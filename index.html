@@ -4,105 +4,1184 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Website Description -->
-    <meta name="description" content="Jude Michael G. Tamares' personal portfolio showcasing UI/UX design, web development, projects, and experience.">
+    <meta name="description"
+          content="Jude Michael Tamares' personal portfolio showcasing web development, UI/UX design, skills, and projects.">
 
-    <!-- Open Graph / Discord / Social Media Preview -->
-    <meta property="og:title" content="Jude Michael G. Tamares | Portfolio">
-    <meta property="og:description" content="Explore Jude Michael G. Tamares' portfolio, featuring UI/UX design, web development, and selected projects.">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Jude Michael Tamares | Portfolio">
+    <meta property="og:description"
+          content="Explore Jude Michael Tamares' portfolio, projects, skills, and journey as a web developer.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jude-sudo.github.io/portfolio-website/">
+    <meta property="og:image"
+          content="https://jude-sudo.github.io/portfolio-website/images/profile.png">
 
-    <title>Jude Michael G. Tamares | Portfolio</title>
+    <title>Jude Michael Tamares | Portfolio</title>
 
-    <link rel="stylesheet" href="layouts/css/style.css">
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-
 <body>
-    <nav class="navbar">
-        <div class="logo">Jude Michael G. Tamares</div>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contacts</a></li>
-        </ul>
-    </nav>
 
-    <header class="header-section">
-        <div class="header-text">
-            <p class="highlight">UI/UX DESIGNER</p>
-            <h1>Hello, my name is <br><span class="bold">Jude Michael G. Tamares</span></h1>
-            <p class="description">I am a passionate web developer specializing in modern front-end and back-end technologies. I love building responsive, user-friendly websites and web applications. With experience in HTML, CSS, JavaScript, and frameworks like React and Node.js, I strive to deliver high-quality digital solutions. Learn more about my work and experience on the About page.</p>
-            <div class="buttons">
-                <a href="#projects" class="btn violet">Projects</a>
-                <a href="#" class="btn outline">LinkedIn</a>
-            </div>
-        </div>
-        <div class="header-image">
-            <img src="images/me.png" alt="Jude Tamares">
-        </div>
-    </header>
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+    <div class="container">
 
-    <section class="about-wrapper" id="about">
-        <div class="about-container">
-            <div class="about-text">
-                <h2>About me</h2>
-                <p>
-                    I'm a passionate UI/UX designer dedicated to creating intuitive and engaging digital experiences. 
-                    With a keen eye for design and a love for solving problems through user-centered thinking, 
-                    I strive to turn complex ideas into clean, functional interfaces. 
-                    Whether working on web or mobile applications, I focus on combining aesthetics with usability.
+        <a class="navbar-brand" href="#home">
+            <span class="brand-dot"></span>
+            <span>Jude<span class="accent">.</span></span>
+        </a>
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+
+                <li class="nav-item ms-lg-3">
+                    <a class="contact-nav" href="#contact">Let's Talk</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- ================= HERO ================= -->
+<main>
+
+<section id="home" class="hero-section">
+
+    <div class="hero-glow glow-one"></div>
+    <div class="hero-glow glow-two"></div>
+
+    <div class="container">
+        <div class="row align-items-center min-vh-100">
+
+            <!-- TEXT -->
+            <div class="col-lg-7">
+
+                <div class="available">
+                    <span></span>
+                    Currently learning & building
+                </div>
+
+                <p class="hero-small">
+                    HELLO, I'M
                 </p>
 
-                <button class="resume-button">Resume</button>
+                <h1>
+                    Jude Michael
+                    <span>Tamares.</span>
+                </h1>
+
+                <h2>
+                    Aspiring Full-Stack Web Developer
+                </h2>
+
+                <p class="hero-description">
+                    I enjoy transforming ideas into clean, responsive,
+                    and user-friendly digital experiences. I'm currently
+                    developing my skills in front-end and back-end web development.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="primary-btn">
+                        Explore My Work
+                        <span>↗</span>
+                    </a>
+
+                    <a href="https://github.com/jude-sudo"
+                       target="_blank"
+                       rel="noopener"
+                       class="secondary-btn">
+                        GitHub
+                    </a>
+
+                </div>
+
+                <div class="social-mini">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Bootstrap</span>
+                    <span>JavaScript</span>
+                </div>
+
             </div>
-            <div class="about-image">
-                <div class="circle-background"></div>
-                <img src="images/about_me.png" alt="About Me">
+
+
+            <!-- IMAGE -->
+            <div class="col-lg-5">
+
+                <div class="profile-wrapper">
+
+                    <div class="profile-ring"></div>
+
+                    <div class="profile-card">
+
+                        <div class="profile-top">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <img
+                            src="images/profile.png"
+                            alt="Jude Michael Tamares"
+                            class="profile-image">
+
+                    </div>
+
+                    <div class="floating-card">
+                        <strong>01</strong>
+                        <small>Developer<br>in progress</small>
+                    </div>
+
+                </div>
+
             </div>
-        </div>
-    </section>
 
-    <section class="projects" id="projects">
-        <h2>PROJECTS</h2>
-        <div class="project">
-            <img class="image-container" src="images/project_1.png" alt="Project 1">
-            <h3>Employee Profiling System</h3>
-            <p>Short description about the project.</p>
-            <a href="#">View Project</a>
         </div>
-        <div class="project">
-            <img class="image-container" src="images/project_2.png" alt="Project 2">
-            <h3>Employee ID Profiling</h3>
-            <p>Short description about the project.</p>
-            <a href="#">View Project</a>
-        </div>
-        <div class="project">
-            <img class="image-container" src="images/project_3.png" alt="Project 3">
-            <h3>iOksi System</h3>
-            <p>Short description about the project.</p>
-            <a href="#">View Project</a>
-        </div>
-    </section>
+    </div>
 
-    <section class="contact-section" id="contact">
-        <h2>Contact Me</h2>
-        <form class="contact-form">
-            <input type="text" name="name" placeholder="Your Name" required />
-            <input type="email" name="email" placeholder="Your Email" required />
-            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </section>
+</section>
 
-    <footer>
-        <p>© 2025 JUDE MICHAEL G. TAMARES</p>
-        <div class="socials">
-            <a href="#">FB</a>
-            <a href="#">IN</a>
-            <a href="#">Email</a>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section-dark">
+
+    <div class="container">
+
+        <div class="section-label">
+            <span>01</span>
+            ABOUT ME
         </div>
-    </footer>
+
+        <div class="row g-5 align-items-center">
+
+            <div class="col-lg-5">
+
+                <h2 class="section-title">
+                    Building skills.<br>
+                    <span>Creating possibilities.</span>
+                </h2>
+
+            </div>
+
+            <div class="col-lg-7">
+
+                <p class="about-text">
+                    I'm an aspiring full-stack web developer currently
+                    learning and improving my skills through hands-on projects.
+                    I enjoy creating websites that are simple, responsive,
+                    and easy to use.
+                </p>
+
+                <p class="about-text">
+                    My current focus is strengthening my foundation in
+                    HTML, CSS, Bootstrap, JavaScript, Git, and GitHub while
+                    continuing to explore modern web development technologies.
+                </p>
+
+                <div class="about-stats">
+
+                    <div>
+                        <strong>01+</strong>
+                        <span>Portfolio</span>
+                    </div>
+
+                    <div>
+                        <strong>04</strong>
+                        <span>Core Skills</span>
+                    </div>
+
+                    <div>
+                        <strong>∞</strong>
+                        <span>Things to Learn</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="section-light">
+
+    <div class="container">
+
+        <div class="section-label dark-label">
+            <span>02</span>
+            MY SKILLS
+        </div>
+
+        <div class="row align-items-end mb-5">
+
+            <div class="col-lg-8">
+                <h2 class="section-title dark-title">
+                    Tools I use to<br>
+                    <span>build the web.</span>
+                </h2>
+            </div>
+
+            <div class="col-lg-4">
+                <p class="section-description">
+                    These are the technologies and tools I'm currently
+                    practicing as I grow as a developer.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="row g-4">
+
+            <div class="col-md-6 col-lg-3">
+                <div class="skill-box">
+                    <div class="skill-icon">&lt;/&gt;</div>
+                    <span>01</span>
+                    <h3>HTML</h3>
+                    <p>
+                        Semantic structure, accessibility,
+                        and organized web content.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="skill-box">
+                    <div class="skill-icon">#</div>
+                    <span>02</span>
+                    <h3>CSS</h3>
+                    <p>
+                        Responsive layouts, animations,
+                        typography, and visual design.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="skill-box">
+                    <div class="skill-icon">B</div>
+                    <span>03</span>
+                    <h3>Bootstrap</h3>
+                    <p>
+                        Responsive grids, components,
+                        utilities, and modern layouts.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="skill-box">
+                    <div class="skill-icon">G</div>
+                    <span>04</span>
+                    <h3>Git</h3>
+                    <p>
+                        Version control, repositories,
+                        commits, and GitHub workflow.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="projects-section">
+
+    <div class="container">
+
+        <div class="section-label">
+            <span>03</span>
+            SELECTED WORK
+        </div>
+
+        <div class="row align-items-end mb-5">
+
+            <div class="col-lg-8">
+                <h2 class="section-title">
+                    Things I've<br>
+                    <span>been working on.</span>
+                </h2>
+            </div>
+
+            <div class="col-lg-4">
+                <p class="section-description light-description">
+                    A collection of projects that represent
+                    my learning journey and development process.
+                </p>
+            </div>
+
+        </div>
+
+
+ 
+
+<!-- ================= PROJECT 1 ================= -->
+<div class="project-item">
+
+    <div class="project-image svg-project">
+
+        <svg
+            viewBox="0 0 800 500"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-labelledby="employeeSystemTitle">
+
+            <title id="employeeSystemTitle">
+                Employee Profiling System
+            </title>
+
+            <defs>
+
+                <linearGradient
+                    id="bgGradient1"
+                    x1="0"
+                    y1="0"
+                    x2="1"
+                    y2="1">
+
+                    <stop offset="0%" stop-color="#0b1220"/>
+                    <stop offset="100%" stop-color="#111827"/>
+
+                </linearGradient>
+
+                <linearGradient
+                    id="blueGradient1"
+                    x1="0"
+                    y1="0"
+                    x2="1"
+                    y2="1">
+
+                    <stop offset="0%" stop-color="#3b82f6"/>
+                    <stop offset="100%" stop-color="#22d3ee"/>
+
+                </linearGradient>
+
+                <filter id="glow1">
+
+                    <feGaussianBlur
+                        stdDeviation="8"
+                        result="blur"/>
+
+                    <feMerge>
+                        <feMergeNode in="blur"/>
+                        <feMergeNode in="SourceGraphic"/>
+                    </feMerge>
+
+                </filter>
+
+            </defs>
+
+            <!-- Background -->
+            <rect
+                width="800"
+                height="500"
+                rx="25"
+                fill="url(#bgGradient1)"/>
+
+            <!-- Decorative glow -->
+            <circle
+                cx="680"
+                cy="80"
+                r="130"
+                fill="#2563eb"
+                opacity=".10"/>
+
+            <circle
+                cx="100"
+                cy="440"
+                r="150"
+                fill="#22d3ee"
+                opacity=".06"/>
+
+            <!-- Browser window -->
+            <rect
+                x="70"
+                y="55"
+                width="660"
+                height="390"
+                rx="18"
+                fill="#0f172a"
+                stroke="#334155"
+                stroke-width="2"/>
+
+            <!-- Browser header -->
+            <rect
+                x="70"
+                y="55"
+                width="660"
+                height="55"
+                rx="18"
+                fill="#111827"/>
+
+            <circle
+                cx="100"
+                cy="82"
+                r="6"
+                fill="#ef4444"/>
+
+            <circle
+                cx="122"
+                cy="82"
+                r="6"
+                fill="#eab308"/>
+
+            <circle
+                cx="144"
+                cy="82"
+                r="6"
+                fill="#22c55e"/>
+
+            <!-- Header title -->
+            <text
+                x="185"
+                y="87"
+                fill="#94a3b8"
+                font-size="14"
+                font-family="Arial">
+                Employee Profiling System
+            </text>
+
+            <!-- Sidebar -->
+            <rect
+                x="70"
+                y="110"
+                width="145"
+                height="335"
+                fill="#0b1220"/>
+
+            <rect
+                x="90"
+                y="140"
+                width="105"
+                height="38"
+                rx="9"
+                fill="url(#blueGradient1)"
+                opacity=".9"/>
+
+            <text
+                x="110"
+                y="164"
+                fill="white"
+                font-size="12"
+                font-family="Arial"
+                font-weight="bold">
+                Dashboard
+            </text>
+
+            <text
+                x="105"
+                y="205"
+                fill="#64748b"
+                font-size="11"
+                font-family="Arial">
+                Employees
+            </text>
+
+            <text
+                x="105"
+                y="235"
+                fill="#64748b"
+                font-size="11"
+                font-family="Arial">
+                Departments
+            </text>
+
+            <text
+                x="105"
+                y="265"
+                fill="#64748b"
+                font-size="11"
+                font-family="Arial">
+                Reports
+            </text>
+
+            <!-- Main dashboard -->
+
+            <text
+                x="245"
+                y="145"
+                fill="white"
+                font-size="24"
+                font-family="Arial"
+                font-weight="bold">
+                Employee Overview
+            </text>
+
+            <!-- Cards -->
+
+            <rect
+                x="245"
+                y="175"
+                width="135"
+                height="75"
+                rx="12"
+                fill="#172033"
+                stroke="#26364d"/>
+
+            <text
+                x="263"
+                y="202"
+                fill="#64748b"
+                font-size="11"
+                font-family="Arial">
+                Employees
+            </text>
+
+            <text
+                x="263"
+                y="232"
+                fill="#22d3ee"
+                font-size="25"
+                font-family="Arial"
+                font-weight="bold">
+                128
+            </text>
+
+            <rect
+                x="400"
+                y="175"
+                width="135"
+                height="75"
+                rx="12"
+                fill="#172033"
+                stroke="#26364d"/>
+
+            <text
+                x="418"
+                y="202"
+                fill="#64748b"
+                font-size="11"
+                font-family="Arial">
+                Active
+            </text>
+
+            <text
+                x="418"
+                y="232"
+                fill="#3b82f6"
+                font-size="25"
+                font-family="Arial"
+                font-weight="bold">
+                114
+            </text>
+
+            <!-- Employee table -->
+
+            <rect
+                x="245"
+                y="275"
+                width="450"
+                height="130"
+                rx="12"
+                fill="#111827"
+                stroke="#26364d"/>
+
+            <text
+                x="265"
+                y="302"
+                fill="#64748b"
+                font-size="10"
+                font-family="Arial">
+                EMPLOYEE
+            </text>
+
+            <text
+                x="430"
+                y="302"
+                fill="#64748b"
+                font-size="10"
+                font-family="Arial">
+                DEPARTMENT
+            </text>
+
+            <text
+                x="600"
+                y="302"
+                fill="#64748b"
+                font-size="10"
+                font-family="Arial">
+                STATUS
+            </text>
+
+            <line
+                x1="260"
+                y1="315"
+                x2="680"
+                y2="315"
+                stroke="#26364d"/>
+
+            <!-- Row 1 -->
+            <circle
+                cx="280"
+                cy="340"
+                r="12"
+                fill="url(#blueGradient1)"
+                filter="url(#glow1)"/>
+
+            <text
+                x="302"
+                y="344"
+                fill="#dbeafe"
+                font-size="11"
+                font-family="Arial">
+                Juan Dela Cruz
+            </text>
+
+            <text
+                x="430"
+                y="344"
+                fill="#94a3b8"
+                font-size="11"
+                font-family="Arial">
+                IT
+            </text>
+
+            <rect
+                x="600"
+                y="330"
+                width="60"
+                height="20"
+                rx="10"
+                fill="#22c55e"
+                opacity=".15"/>
+
+            <text
+                x="612"
+                y="344"
+                fill="#4ade80"
+                font-size="9"
+                font-family="Arial">
+                ACTIVE
+            </text>
+
+            <!-- Row 2 -->
+            <circle
+                cx="280"
+                cy="375"
+                r="12"
+                fill="#8b5cf6"/>
+
+            <text
+                x="302"
+                y="379"
+                fill="#dbeafe"
+                font-size="11"
+                font-family="Arial">
+                Maria Santos
+            </text>
+
+            <text
+                x="430"
+                y="379"
+                fill="#94a3b8"
+                font-size="11"
+                font-family="Arial">
+                HR
+            </text>
+
+            <rect
+                x="600"
+                y="365"
+                width="60"
+                height="20"
+                rx="10"
+                fill="#22c55e"
+                opacity=".15"/>
+
+            <text
+                x="612"
+                y="379"
+                fill="#4ade80"
+                font-size="9"
+                font-family="Arial">
+                ACTIVE
+            </text>
+
+        </svg>
+
+    </div>
+
+    <div class="project-content">
+
+        <div class="project-number">01</div>
+
+        <h3>Employee Profiling System</h3>
+
+        <p>
+            A system designed to organize and manage
+            employee information through a simple
+            and structured interface.
+        </p>
+
+        <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Bootstrap</span>
+        </div>
+
+        <a href="#" class="project-link">
+            View Project →
+        </a>
+
+    </div>
+
+</div>
+
+
+<!-- ================= PROJECT 2 ================= -->
+<div class="project-item reverse">
+
+    <div class="project-image svg-project">
+
+        <svg
+            viewBox="0 0 800 500"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-labelledby="employeeIDTitle">
+
+            <title id="employeeIDTitle">
+                Employee ID Profiling
+            </title>
+
+            <defs>
+
+                <linearGradient
+                    id="bgGradient2"
+                    x1="0"
+                    y1="0"
+                    x2="1"
+                    y2="1">
+
+                    <stop offset="0%" stop-color="#080d18"/>
+                    <stop offset="100%" stop-color="#111827"/>
+
+                </linearGradient>
+
+                <linearGradient
+                    id="cyanGradient2"
+                    x1="0"
+                    y1="0"
+                    x2="1"
+                    y2="1">
+
+                    <stop offset="0%" stop-color="#22d3ee"/>
+                    <stop offset="100%" stop-color="#3b82f6"/>
+
+                </linearGradient>
+
+                <filter id="glow2">
+
+                    <feGaussianBlur
+                        stdDeviation="7"
+                        result="blur"/>
+
+                    <feMerge>
+                        <feMergeNode in="blur"/>
+                        <feMergeNode in="SourceGraphic"/>
+                    </feMerge>
+
+                </filter>
+
+            </defs>
+
+            <!-- Background -->
+            <rect
+                width="800"
+                height="500"
+                rx="25"
+                fill="url(#bgGradient2)"/>
+
+            <circle
+                cx="680"
+                cy="400"
+                r="150"
+                fill="#22d3ee"
+                opacity=".07"/>
+
+            <circle
+                cx="100"
+                cy="80"
+                r="120"
+                fill="#3b82f6"
+                opacity=".08"/>
+
+            <!-- Main ID card -->
+            <rect
+                x="150"
+                y="90"
+                width="500"
+                height="315"
+                rx="25"
+                fill="#111827"
+                stroke="#334155"
+                stroke-width="2"/>
+
+            <!-- Top gradient bar -->
+            <rect
+                x="150"
+                y="90"
+                width="500"
+                height="85"
+                rx="25"
+                fill="url(#cyanGradient2)"
+                opacity=".9"/>
+
+            <text
+                x="185"
+                y="128"
+                fill="white"
+                font-size="13"
+                font-family="Arial"
+                font-weight="bold">
+                COMPANY IDENTIFICATION
+            </text>
+
+            <text
+                x="185"
+                y="151"
+                fill="#dbeafe"
+                font-size="10"
+                font-family="Arial">
+                EMPLOYEE PROFILE CARD
+            </text>
+
+            <!-- Avatar -->
+            <circle
+                cx="260"
+                cy="250"
+                r="62"
+                fill="#0f172a"
+                stroke="#22d3ee"
+                stroke-width="3"
+                filter="url(#glow2)"/>
+
+            <!-- Person icon -->
+            <circle
+                cx="260"
+                cy="230"
+                r="21"
+                fill="#38bdf8"/>
+
+            <path
+                d="M215 290
+                   C220 255 300 255 305 290
+                   Z"
+                fill="#3b82f6"/>
+
+            <!-- Information -->
+            <text
+                x="355"
+                y="218"
+                fill="#64748b"
+                font-size="10"
+                font-family="Arial">
+                FULL NAME
+            </text>
+
+            <text
+                x="355"
+                y="241"
+                fill="white"
+                font-size="20"
+                font-family="Arial"
+                font-weight="bold">
+                JUDE MICHAEL
+            </text>
+
+            <text
+                x="355"
+                y="265"
+                fill="#22d3ee"
+                font-size="14"
+                font-family="Arial"
+                font-weight="bold">
+                TAMARES
+            </text>
+
+            <text
+                x="355"
+                y="300"
+                fill="#64748b"
+                font-size="10"
+                font-family="Arial">
+                POSITION
+            </text>
+
+            <text
+                x="355"
+                y="320"
+                fill="#cbd5e1"
+                font-size="12"
+                font-family="Arial">
+                Web Developer
+            </text>
+
+            <text
+                x="355"
+                y="350"
+                fill="#64748b"
+                font-size="10"
+                font-family="Arial">
+                EMPLOYEE ID
+            </text>
+
+            <text
+                x="355"
+                y="370"
+                fill="#cbd5e1"
+                font-size="12"
+                font-family="monospace">
+                EMP-2026-001
+            </text>
+
+            <!-- QR Code style -->
+            <g transform="translate(555 285)">
+
+                <rect
+                    width="55"
+                    height="55"
+                    rx="5"
+                    fill="white"/>
+
+                <rect x="7" y="7" width="14" height="14" fill="#0f172a"/>
+                <rect x="34" y="7" width="14" height="14" fill="#0f172a"/>
+                <rect x="7" y="34" width="14" height="14" fill="#0f172a"/>
+
+                <rect x="27" y="27" width="7" height="7" fill="#0f172a"/>
+                <rect x="38" y="28" width="5" height="5" fill="#0f172a"/>
+                <rect x="28" y="40" width="7" height="7" fill="#0f172a"/>
+                <rect x="40" y="39" width="8" height="8" fill="#0f172a"/>
+
+            </g>
+
+            <!-- Decorative lines -->
+            <line
+                x1="185"
+                y1="390"
+                x2="615"
+                y2="390"
+                stroke="#26364d"/>
+
+            <circle
+                cx="185"
+                cy="420"
+                r="5"
+                fill="#22c55e"/>
+
+            <text
+                x="200"
+                y="424"
+                fill="#64748b"
+                font-size="10"
+                font-family="Arial">
+                VERIFIED EMPLOYEE
+            </text>
+
+        </svg>
+
+    </div>
+
+    <div class="project-content">
+
+        <div class="project-number">02</div>
+
+        <h3>Employee ID Profiling</h3>
+
+        <p>
+            A project focused on presenting employee
+            identification and profile information
+            in a clean digital format.
+        </p>
+
+        <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+        </div>
+
+        <a href="#" class="project-link">
+            View Project →
+        </a>
+
+    </div>
+
+</div>
+
+   
+
+ 
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="contact-section">
+
+    <div class="container">
+
+        <div class="contact-box">
+
+            <div class="section-label">
+                <span>04</span>
+                CONTACT
+            </div>
+
+            <h2>
+                Let's build something
+                <span>meaningful.</span>
+            </h2>
+
+            <p>
+                Have a project idea, feedback, or simply want
+                to connect? Feel free to reach out.
+            </p>
+
+            <div class="contact-buttons">
+
+                <a href="mailto:your-email@example.com"
+                   class="primary-btn">
+                    Send Me an Email
+                    <span>↗</span>
+                </a>
+
+                <a href="https://github.com/jude-sudo"
+                   target="_blank"
+                   rel="noopener"
+                   class="secondary-btn">
+                    GitHub
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+<footer>
+
+    <div class="container">
+
+        <div class="footer-content">
+
+            <div>
+                <strong>Jude<span class="accent">.</span></strong>
+                <p>Aspiring Full-Stack Developer</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <span>© 2026 Jude Michael Tamares</span>
+            <span>Built with HTML, CSS & Bootstrap</span>
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    const elements = document.querySelectorAll(
+        ".section-label, .section-title, .about-text, .skill-box, .project-item, .contact-box"
+    );
+
+    elements.forEach(element => {
+        element.style.opacity = "0";
+        element.style.transform = "translateY(35px)";
+        element.style.transition =
+            "opacity .8s ease, transform .8s cubic-bezier(.22,1,.36,1)";
+    });
+
+    const observer = new IntersectionObserver(
+        (entries, observer) => {
+
+            entries.forEach(entry => {
+
+                if (entry.isIntersecting) {
+
+                    entry.target.style.opacity = "1";
+                    entry.target.style.transform = "translateY(0)";
+
+                    observer.unobserve(entry.target);
+                }
+
+            });
+
+        },
+        {
+            threshold: 0.12
+        }
+    );
+
+    elements.forEach(element => observer.observe(element));
+
+});
+</script>
+
 </body>
 </html>

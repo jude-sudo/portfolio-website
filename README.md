@@ -1,18 +1,14 @@
 # Personal Portfolio
 
-A responsive personal portfolio website by **Jude Tamares**, built as part of the MST Connect PH Full-Stack Web Development Bootcamp. The site introduces me as an aspiring full-stack web developer and showcases my current skills, projects, contact information, and professional links.
+A responsive personal portfolio website by **Kristoffer Kney de Jesus**, built as part of the MST Connect PH Full-Stack Web Development Bootcamp. The site introduces me as an aspiring full-stack web developer and showcases my current skills, projects, contact information, and professional links.
 
 ## Live Demo
 
-> Add your GitHub Pages link here after deployment.
-
-[View Portfolio](https://jude-sudo.github.io/portfolio-website/)
+[View Portfolio](https://ken0005.github.io/portfolio-website/)
 
 ## Screenshot
 
-> Add a homepage screenshot to your `images/` folder, then update the path below.
-
-![Portfolio Homepage](images/screenshot.png)
+![Portfolio Homepage](images/portfolio-homepage.png)
 
 ## Technologies Used
 
@@ -41,7 +37,7 @@ A responsive personal portfolio website by **Jude Tamares**, built as part of th
 ## Portfolio Sections
 
 ### Home / Hero
-Introduces **Jude Tamares** as an aspiring full-stack web developer and includes buttons for viewing projects and visiting GitHub.
+Introduces **Kristoffer Kney de Jesus** as an aspiring full-stack web developer and includes buttons for viewing projects and visiting GitHub.
 
 ### About
 Provides a short introduction about current learning goals, front-end development skills, and plans to continue growing the portfolio.
@@ -111,8 +107,7 @@ Because Bootstrap is loaded through a CDN, an internet connection is needed for 
 ### Option 2: Clone with Git
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/personal-portfolio.git
-cd personal-portfolio
+git clone https://github.com/ken0005/portfolio-website.git 
 ```
 
 Then open `index.html` in your browser.
@@ -133,6 +128,8 @@ Basic deployment steps:
 8. Save and wait for GitHub Pages to publish the website.
 9. Add the live website URL to this README.
 
+
+
 ## Before Final Submission
 
 Replace the following placeholders:
@@ -147,12 +144,12 @@ Replace the following placeholders:
 
 ## Author
 
-**Jude Tamares**  
+**Kristoffer Kney de Jesus**  
 Aspiring Full-Stack Web Developer
 
 ### Professional Links
 
-- GitHub: https://github.com/jude-sudo
+- GitHub: https://github.com/ken0005
 
 ---
 

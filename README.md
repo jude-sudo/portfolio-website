@@ -1,10 +1,10 @@
 # Personal Portfolio
 
-A responsive personal portfolio website by **Kristoffer Kney de Jesus**, built as part of the MST Connect PH Full-Stack Web Development Bootcamp. The site introduces me as an aspiring full-stack web developer and showcases my current skills, projects, contact information, and professional links.
+A responsive personal portfolio website by **Jude MIchael Tamares**, built as part of the MST Connect PH Full-Stack Web Development Bootcamp. The site introduces me as an aspiring full-stack web developer and showcases my current skills, projects, contact information, and professional links.
 
 ## Live Demo
 
-[View Portfolio](https://ken0005.github.io/portfolio-website/)
+[View Portfolio](https://jude-sudo.github.io/portfolio-website/)
 
 ## Screenshot
 
@@ -37,7 +37,7 @@ A responsive personal portfolio website by **Kristoffer Kney de Jesus**, built a
 ## Portfolio Sections
 
 ### Home / Hero
-Introduces **Kristoffer Kney de Jesus** as an aspiring full-stack web developer and includes buttons for viewing projects and visiting GitHub.
+Introduces **Jude MIchael Tamares** as an aspiring full-stack web developer and includes buttons for viewing projects and visiting GitHub.
 
 ### About
 Provides a short introduction about current learning goals, front-end development skills, and plans to continue growing the portfolio.
@@ -107,7 +107,7 @@ Because Bootstrap is loaded through a CDN, an internet connection is needed for 
 ### Option 2: Clone with Git
 
 ```bash
-git clone https://github.com/ken0005/portfolio-website.git 
+git clone https://github.com/jude-sudo/portfolio-website.git 
 ```
 
 Then open `index.html` in your browser.
@@ -144,12 +144,12 @@ Replace the following placeholders:
 
 ## Author
 
-**Kristoffer Kney de Jesus**  
+**Jude MIchael Tamares**  
 Aspiring Full-Stack Web Developer
 
 ### Professional Links
 
-- GitHub: https://github.com/ken0005
+- GitHub: https://github.com/jude-sudo
 
 ---
 
